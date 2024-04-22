@@ -6,25 +6,24 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/***
- * Represents cause of an injury i.e. is it a mine, a bullet, a grenade etc...
+/**
+ *
+ * Represents body part that is injured/disabled i.e. arm, leg, ear, eye, head
  */
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED, force = true)
 @Entity
-@Table(name = "injury_cause")
-public class InjuryCause {
-
+@Table(name = "injured_body_part")
+public class InjuredBodyPart {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Long id;
 
-    @Column(name = "injury_cause_name")
-    private String injuryCauseName;
+    @Column(name = "body_part_name")
+    private String bodyPartName;
 
-    public InjuryCause(String injuryCauseName) {
-        this.injuryCauseName = injuryCauseName;
+    public InjuredBodyPart(String bodyPartName) {
+        this.bodyPartName = bodyPartName;
     }
 }
