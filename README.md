@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/lmilunovic/udas-app/badge/main)](https://www.codefactor.io/repository/github/lmilunovic/udas-app/overview/main)
+
 # UDAS web application
 
 ## The idea
