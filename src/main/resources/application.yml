@@ -2,6 +2,7 @@ spring:
   application:
     name: udas-app
 
+
   # TODO create dev and prod profiles
 
   jpa:
