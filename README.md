@@ -1,4 +1,4 @@
-# Baza-Podataka-UDAS (UDAS database application)
+# UDAS web application
 
 ## The idea
 
