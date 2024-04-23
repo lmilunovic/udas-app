@@ -1,4 +1,12 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/lmilunovic/udas-app/badge/main)](https://www.codefactor.io/repository/github/lmilunovic/udas-app/overview/main)
+![Java](https://img.shields.io/badge/Java-17-ff696c)
+[![license](https://img.shields.io/github/license/lmilunovic/udas-app)](https://github.com/lmilunovic/udas-app/blob/master/LICENSE)
+
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=lmilunovic_udas-app&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=lmilunovic_udas-app)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=lmilunovic_udas-app&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=lmilunovic_udas-app)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=lmilunovic_udas-app&metric=security_rating)](https://sonarcloud.io/dashboard?id=lmilunovic_udas-app)
+
 
 # UDAS web application
 
