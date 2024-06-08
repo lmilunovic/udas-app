@@ -1,10 +1,15 @@
+# TODO create dev and prod profiles
+# TODO use environment variables instead of hardcoding stuff
+
+
 spring:
   application:
     name: udas-app
-
-
-  # TODO create dev and prod profiles
-
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://0.0.0.0:8443
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     database: H2
