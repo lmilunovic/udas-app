@@ -14,7 +14,10 @@ on:
 jobs:
   build:
     runs-on: [self-hosted]
-    
+    defaults:
+      run:
+        working-directory: ./api-client
+
     strategy:
       matrix:
         node-version: [14.x, 16.x, 18.x]
