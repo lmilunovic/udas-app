@@ -10,8 +10,6 @@ on:
       - api-client/**
   pull_request:
     branches: [ "main" ]
-    paths:
-      - api-client/**
 
 jobs:
   build:
